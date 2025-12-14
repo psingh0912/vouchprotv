@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="200" height="200" fill="#0a1628"/>
+    
+    <!-- Broadcast waves -->
+    <path d="M30 60 Q50 100, 30 140" stroke="#00e6b8" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M45 45 Q75 100, 45 155" stroke="#00e6b8" stroke-width="4" fill="none" opacity="0.7"/>
+    <path d="M60 30 Q100 100, 60 170" stroke="#00ffcc" stroke-width="4" fill="none" opacity="0.9"/>
+    
+    <!-- V letter - solid bright teal -->
+    <path d="M75 40 L110 160 L145 40 L130 40 L110 130 L90 40 Z" fill="#00e6b8"/>
+    
+    <!-- Play button circle - solid bright teal -->
+    <circle cx="110" cy="140" r="35" fill="#00e6b8"/>
+    
+    <!-- Play triangle - dark -->
+    <polygon points="100,120 100,160 130,140" fill="#0a1628"/>
+    
+    <!-- Text -->
+    <text x="100" y="190" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="14" fill="#ffffff" text-anchor="middle">VouchPro</text>
+</svg>

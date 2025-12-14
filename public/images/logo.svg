@@ -1,0 +1,28 @@
+<svg viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background for JPEG export -->
+    <rect width="280" height="60" fill="#0a1628"/>
+    
+    <!-- Logo Mark -->
+    <g transform="translate(5, 8)">
+        <!-- Broadcast waves -->
+        <path d="M2 8 Q6 15, 2 22" stroke="#00e6b8" stroke-width="2" fill="none" opacity="0.5"/>
+        <path d="M6 5 Q12 15, 6 25" stroke="#00e6b8" stroke-width="2" fill="none" opacity="0.7"/>
+        <path d="M10 2 Q18 15, 10 28" stroke="#00e6b8" stroke-width="2" fill="none" opacity="0.9"/>
+        
+        <!-- V letter - solid bright teal -->
+        <path d="M18 5 L28 35 L38 5 L34 5 L28 27 L22 5 Z" fill="#00e6b8"/>
+        
+        <!-- Play button circle - solid bright teal -->
+        <circle cx="28" cy="28" r="10" fill="#00e6b8"/>
+        
+        <!-- Play triangle - dark -->
+        <polygon points="25,24 25,32 32,28" fill="#0a1628"/>
+    </g>
+    
+    <!-- Main Text - VouchPro -->
+    <text x="55" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#ffffff">Vouch</text>
+    <text x="122" y="32" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24" fill="#00e6b8">Pro</text>
+    
+    <!-- Tagline - Services Pvt. Ltd. -->
+    <text x="55" y="50" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="11" fill="#94a3b8">Services Private Limited</text>
+</svg>
