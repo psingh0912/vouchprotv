@@ -1,0 +1,31 @@
+# VouchPro Services Docker Compose Configuration
+#
+# Before running, create a .env file in this directory with:
+#   SECRET_KEY_BASE=<generate with: rails secret>
+#   TEAMS_WEBHOOK_URL=<your Microsoft Teams webhook URL>
+#
+# Or set these environment variables directly on your server.
+#
+# To deploy:
+#   docker compose up -d --build
+#
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - RAILS_ENV=production
+      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - TEAMS_WEBHOOK_URL=${TEAMS_WEBHOOK_URL}
+    restart: unless-stopped
+    volumes:
+      - rails_storage:/rails/storage
+      - rails_db:/rails/db
+
+volumes:
+  rails_storage:
+  rails_db:
+
