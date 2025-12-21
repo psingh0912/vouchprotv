@@ -1,0 +1,27 @@
+<svg width="224" height="224" viewBox="0 0 224 224" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="224" height="224" fill="#0a1628"/>
+    
+    <!-- Subtle gradient simulation -->
+    <rect x="0" y="0" width="112" height="112" fill="#0d2847" opacity="0.4"/>
+    <rect x="112" y="112" width="112" height="112" fill="#0d2847" opacity="0.4"/>
+    
+    <!-- Subtle glow -->
+    <circle cx="112" cy="112" r="80" fill="#00d4aa" opacity="0.08"/>
+    <circle cx="112" cy="112" r="50" fill="#00d4aa" opacity="0.05"/>
+    
+    <!-- Logo Mark - centered and scaled -->
+    <g transform="translate(42, 42)">
+        <!-- Broadcast waves -->
+        <path d="M5 28 Q18 56, 5 84" stroke="#00d4aa" stroke-width="6" fill="none" opacity="0.4"/>
+        <path d="M20 17 Q40 56, 20 95" stroke="#00d4aa" stroke-width="6" fill="none" opacity="0.6"/>
+        <path d="M35 6 Q62 56, 35 106" stroke="#00d4aa" stroke-width="6" fill="none" opacity="0.85"/>
+        
+        <!-- V letter -->
+        <path d="M62 17 L98 130 L134 17 L122 17 L98 103 L74 17 Z" fill="#00d4aa"/>
+        
+        <!-- Play button circle -->
+        <circle cx="98" cy="106" r="32" fill="#00d4aa"/>
+        <polygon points="88,93 88,119 114,106" fill="#0a1628"/>
+    </g>
+</svg>
